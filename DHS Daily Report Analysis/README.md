@@ -1,0 +1,6 @@
+# DHS-Daily-Report
+
+## Problem Statement 
+-DHS is The Department of Homeless Services, a New York City agency focused on preventing and addressing homelessness. It works to help individuals and families find and maintain stable housing, providing services like shelter and case management. This dataset includes the daily number of families and individuals residing in the Department of Homeless Services (DHS) shelter system and the daily number of families applying to the DHS shelter system. This dataset includes data starting from 01/03/2021 and was provided by NYC Open Data taken from th NYC Department of Social Services. 
+
+-The purpose of this analysis is to look at how many people are in the NYC shelter system and to identify any trends or patterns that are found and to understand what contributed to these patterns. Given this information we can learn around what time of the year or what months are more families entering the shelter system as well as when are less families entering the shelter system. this can also provide insight on how many individual people are in the shelter from single adults to just children. 
