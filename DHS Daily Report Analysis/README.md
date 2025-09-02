@@ -8,33 +8,36 @@
 ## Data Dictionary
 Include a data dictionary to explain the meaning of each variable or field in the dataset.
 
-Column Name                                                                   Description                                                                    API Field Name                                  Data Type    
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
--Date of Census                                                            Date of the census                                                                date_of_census                              Floating Timestamp
+Column Name                                                                   Description                                                                         API Field Name                                         Data Type    
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-Date of Census                                                            Date of the census                                                                     date_of_census                                    Floating Timestamp
 
--Total Adults in Shelter                                       The number of adults in shelter as of the date of census                                    total_adults_in_shelter                           Number
+-Total Adults in Shelter                                       The number of adults in shelter as of the date of census                                           total_adults_in_shelter                                 Number
 
--Total Children in Shelter                                     The number of children in shelter as of the date of census                                  total_children_in_shelter                         Number
+-Total Children in Shelter                                     The number of children in shelter as of the date of census                                         total_children_in_shelter                               Number
 
--Total Individuals in Shelter                                  The number of persons in shelter as of the date of census                                   total_individuals_in_shelter                      Number
+-Total Individuals in Shelter                                  The number of persons in shelter as of the date of census                                          total_individuals_in_shelter                            Number
 
--Single Adult Men in Shelter                                   Total number of single adult men in shelter as of date of census                            single_adult_men_in_shelter                       Number
+-Single Adult Men in Shelter                                   Total number of single adult men in shelter as of date of census                                   single_adult_men_in_shelter                             Number
 
--Single Adult Women in Shelter                                 Total number of single adult women in shelter as of date of census                          single_adult_women_in_shelter                     Number
+-Single Adult Women in Shelter                                 Total number of single adult women in shelter as of date of census                                 single_adult_women_in_shelter                           Number
 
--Total Single Adults in Shelter                                The number of single adult men and women in shelter as of the date of census                total_single_adults_in_shelter                    Number
+-Total Single Adults in Shelter                                The number of single adult men and women in shelter as of the date of census                       total_single_adults_in_shelter                          Number
 
--Families w/ Children in Shelter                               Total number of families with children in shelter as of date of census                      families_with_children_in_shelter                 Number
+-Families w/ Children in Shelter                               Total number of families with children in shelter as of date of census                             families_with_children_in_shelter                       Number
 
--Adults in Families w/Children                                 Total number of adults in family w/ children in shelter as of date of census                adults_in_families_with_children_in_shelter       Number
+-Adults in Families w/Children                                 Total number of adults in family w/ children in shelter as of date of census                       adults_in_families_with_children_in_shelter             Number
 
--Children in Families w/ Children                              Total number of children in family w/ children in shelter as of date of census              children_in_families_with_children_in_shelter     Number
+-Children in Families w/ Children                              Total number of children in family w/ children in shelter as of date of census                     children_in_families_with_children_in_shelter           Number
 
--Total Individuals in Families w/ Children in Shelter          Total number of individuals in families with children in shelter as of date of census total_individuals_in_families_with_children_in_shelter  Number
+-Total Individuals in Families w/ Children in Shelter          Total number of individuals in families with children in shelter as of date of census              total_individuals_in_families_with_children_in_shelter  Number
 
--Adult Families in Shelter                                     Total number of adult families in shelter as of date of census                     adult_families_in_shelter
-Number
-Individuals in Adult Families in Shelter
-total number of individuals in adult families in shelter as of date of census
-individuals_in_adult_families_in_shelter
-Number
+-Adult Families in Shelter                                     Total number of adult families in shelter as of date of census                                     adult_families_in_shelter                               Number
+
+-Individuals in Adult Families in Shelter                      Total number of individuals in adult families in shelter as of date of census                      individuals_in_adult_families_in_shelter                Number
+
+
+## Executive Summary
+
+### Data Cleaning Steps
+While viewing the data I noticed there was a date column which contained the month, day of the month and year in number form. Since I wanted to complete analysis for each of these I created a function that extracted the month, day of the month and year and created a column for Month, Year and Day of Week using (dt) datetime functions. This changed the dtypes for month and day of week to objects making it easier to use within my analysis.
