@@ -41,3 +41,22 @@ Column Name                                                                   De
 
 ### Data Cleaning Steps
 While viewing the data I noticed there was a date column which contained the month, day of the month and year in number form. Since I wanted to complete analysis for each of these I created a function that extracted the month, day of the month and year and created a column for Month, Year and Day of Week using (dt) datetime functions. This changed the dtypes for month and day of week to objects making it easier to use within my analysis.
+
+### Key Visualizations
+Include key visualizations that highlight important aspects of the data. Use graphs, charts, or any other visual representation to make your points.
+
+#### Visualization 1: ['Total Number of Individuals in Shelter Sytem Over The Years']
+[This bar graph is consistent with the previous two graphs which displays an increase in people in shelter system over the years from 2021 to 2025.]
+
+![DHS-Daily-Report](Visualizations/barplot4.png)
+
+#### Visualization 2: ['Number of Families With Children in Shelter System Throughout The Months']
+[There is a drop in families with children coming into the shelter system between April and June.]
+
+![DHS-Daily-Repor](Visualizations/barplot19.png)
+
+## Conclusions/Recommendations
+Based on the analysis there has been an increase in individuas entering the shelter system between 2023 and 2025. We see this in both visualizations for total adults and total children. This can be due to the large influx of asylum seekers and a housing affordability crisis, worsened by the expiration of pandemic-era support programs.
+
+## Additional Information
+I beleive having more information such as how many male and female children reside in the shelter system as well as having a nonbinary option for gender as well knowing the exact ages of each individual in the system. I think it would also be helful to know where these individuals came from or previously resided. Given this information we can look into what is going on there and what can be done to help them. 
